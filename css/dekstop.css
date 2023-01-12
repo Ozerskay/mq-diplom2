@@ -4,6 +4,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body
   {
     width: 100%;
@@ -77,7 +92,7 @@ a {
     text-align: center;
     margin-top: 50px;
     font-size: 14px;
-    font-family: "OpenSans-Bold";
+    font-family: "Open Sans";
     line-height: 2;
     font-weight: 700;
     text-transform: uppercase;
