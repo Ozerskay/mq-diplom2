@@ -703,6 +703,7 @@ p {
 }
 
 .shop__item-description {
+  width: 100%;   
   padding: 55px 20px;
   border: 3px solid var(--accent-color);
   flex-grow: 1;
@@ -819,11 +820,11 @@ p {
 /* =======================
         tablet             */
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 
   .container {
     width: 100%;
-    min-width: 768px;
+    min-width: 640px;
     padding: 0 35px;
     margin-left: auto;
     margin-right: auto;
@@ -946,7 +947,7 @@ p {
     width: calc(50% - 23px);
   }
 
-  @media (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+  @media (min-width: 640px) and (max-width: 1199px) and (orientation: landscape) {
     .trends-item {
       width: calc(25% - 3px);
     }
@@ -959,7 +960,6 @@ p {
 @media (min-width: 1200px) {
 
   body{
-    max-width: 1660px;
     margin: 0 auto;
   }
 
